@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(199, 223, 255);
+    text-align: center;
+    font-size: 25pt;
+}
+
+h2{
+    margin-bottom: 0.5em;
+    margin-top: 0.5em
+}
+
+h1{
+    flex-direction: initial;
+    text-align: center;
+    margin-bottom: 0.2em;
+    }
+#boxes{
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    /* display: inline-flex;
+    justify-content: space-between;
+    width: 1000px;
+    flex-wrap: wrap;
+    color: rebeccapurple;
+    word-wrap: break-word;   */
+    display: grid;
+    grid-template-columns: auto,auto,auto;
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    border: 4px dotted red;
+}
+
+img{
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 1em;
+}
+
+h3{
+    margin-top: 0.3em;
+    font-size: 22pt;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
